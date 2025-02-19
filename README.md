@@ -1,0 +1,3 @@
+# Express.js POST Request Error Handling
+
+This repository demonstrates a common error in Express.js applications: the lack of robust error handling within request handlers.  The `bug.js` file shows an example where a POST request to `/user` lacks proper validation and error handling. This can lead to crashes or unexpected behavior if the request body is malformed or missing required fields. The solution, provided in `bugSolution.js`, adds comprehensive error handling to address these issues.
